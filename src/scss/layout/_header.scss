@@ -1,0 +1,23 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.header {
+    text-align: center;
+    background-image: url(../../images/bg-pattern-card.svg);
+    border-radius: 1rem 1rem 0 0;
+    height: 15rem;
+    -webkit-border-radius: 1rem 1rem 0 0;
+    -moz-border-radius: 1rem 1rem 0 0;
+    -ms-border-radius: 1rem 1rem 0 0;
+    -o-border-radius: 1rem 1rem 0 0;
+
+    .header-imagen {
+        border: 5px solid v.$blanco;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-bottom: -19rem;
+    }
+}
